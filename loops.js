@@ -16,23 +16,41 @@
 
 
 
-for(i=0;i<20;i++){
-    if(i==5){
-        console.log("We got 5")
-        break
-    }
-    console.log(i)
-}
+// for(i=0;i<20;i++){
+//     if(i==5){
+//         console.log("We got 5")
+//         break
+//     }
+//     console.log(i)
+// }
 
 
 
-for(i=0;i<20;i++){
-    if(i==5){
-        console.log("We got 5")
-        continue
-    }
-    console.log(i)
-}
+// for(i=0;i<20;i++){
+//     if(i==5){
+//         console.log("We got 5")
+//         continue
+//     }
+//     console.log(i)
+// }
+
+
+
+
+/////// while
+// let i=0
+// while(i<10){
+// console.log("Hi")
+// i=i+2
+// }
+
+
+let i=5
+do{
+console.log(i)
+i++
+}while(i<0)
+
 
 
 
